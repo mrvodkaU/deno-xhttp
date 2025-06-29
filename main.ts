@@ -2,12 +2,12 @@
 import { serve } from "https://deno.land/std/http/server.ts";
 
 // Environment variables with TypeScript typing
-const UUID: string = Deno.env.get("UUID") || "0cf85927-2c71-4e87-9df3-b1eb7d5a9e1b";
+const UUID: string = Deno.env.get("UUID") || "e53f1a6d-909f-4bcf-82d0-d5a8b6bad622";
 const AUTO_ACCESS: boolean = Deno.env.get("AUTO_ACCESS") === "true";
-const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";
-const XPATH: string = Deno.env.get("XPATH") || "xhttp";
-const DOMAIN: string = Deno.env.get("DOMAIN") || "";
-const NAME: string = Deno.env.get("NAME") || "Vls";
+const SUB_PATH: string = Deno.env.get("SUB_PATH") || "youngbjf";
+const XPATH: string = Deno.env.get("XPATH") || "login";
+const DOMAIN: string = Deno.env.get("DOMAIN") || "its-big-j.deno.dev";
+const NAME: string = Deno.env.get("NAME") || "httpx";
 const PORT: number = parseInt(Deno.env.get("PORT") || "3000");
 
 // Core configuration with TypeScript interface
