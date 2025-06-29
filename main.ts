@@ -6,7 +6,7 @@ const UUID: string = Deno.env.get("UUID") || "e53f1a6d-909f-4bcf-82d0-d5a8b6bad6
 const AUTO_ACCESS: boolean = Deno.env.get("AUTO_ACCESS") === "true";
 const SUB_PATH: string = Deno.env.get("SUB_PATH") || "youngbjf";
 const XPATH: string = Deno.env.get("XPATH") || "login";
-const DOMAIN: string = Deno.env.get("DOMAIN") || "mrvodkau-55.deno.dev";
+const DOMAIN: string = Deno.env.get("DOMAIN") || "mrvodkau-deno-55.deno.dev";
 const NAME: string = Deno.env.get("NAME") || "httpx";
 const PORT: number = parseInt(Deno.env.get("PORT") || "3000");
 
