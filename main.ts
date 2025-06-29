@@ -1,7 +1,7 @@
 // Deno-specific imports
 import { serve } from "https://deno.land/std/http/server.ts";
 
-// Environment variables with TypeScript typing
+// Environment variables with TypeScript typing 
 const UUID: string = Deno.env.get("UUID") || "e53f1a6d-909f-4bcf-82d0-d5a8b6bad622";
 const AUTO_ACCESS: boolean = Deno.env.get("AUTO_ACCESS") === "true";
 const SUB_PATH: string = Deno.env.get("SUB_PATH") || "youngbjf";
